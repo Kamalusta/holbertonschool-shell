@@ -1,2 +1,2 @@
 #!/bin/bash
-sed g\;n
+perl -ne 'print if $.%2'
